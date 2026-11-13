@@ -1,0 +1,10 @@
+japanize-matplotlib
+matplotlib
+numpy
+optuna
+pandas
+scikit-learn
+seaborn
+statsmodels
+tqdm
+
