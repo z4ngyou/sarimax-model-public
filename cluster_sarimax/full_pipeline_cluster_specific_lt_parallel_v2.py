@@ -25,7 +25,7 @@ NORMAL_CLUSTERS = [0, 1, 3]
 
 @dataclass
 class ClusterSpecificConfig:
-    raw_data_path: str = "展開データ_ほぼ処理完了_lt_expanded_v2_with_events_jp_clean_with_cluster.csv"
+    raw_data_path: str = "input_booking_data.csv"
     train_start_date: str = "2025-01-01"
     train_end_date: str = "2025-11-30"
     test_start_date: str = "2025-12-01"

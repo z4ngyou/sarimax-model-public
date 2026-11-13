@@ -24,7 +24,7 @@ PREDICTIONS_FILE = (
     / "cluster_only_lt_sarimax_parallel_v4"
     / "cluster_only_2025dec_100trial_validation_cluster_lt_sarimax_predictions_v4.csv"
 )
-SOURCE_FILE = BASE_DIR / "展開データ_ほぼ処理完了_lt_expanded_v2_with_events_jp_clean_with_cluster.csv"
+SOURCE_FILE = BASE_DIR / "input_booking_data.csv"
 OUTPUT_DIR = BASE_DIR / "results" / "cluster_only_booking_curves_validation_v4_style"
 
 ANCHOR_LT = 90

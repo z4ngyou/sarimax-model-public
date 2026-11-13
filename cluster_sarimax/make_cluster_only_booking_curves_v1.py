@@ -14,7 +14,7 @@ RESULT_DIR = BASE_DIR / "results" / "cluster_only_lt_sarimax_parallel_v1"
 OUTPUT_DIR = BASE_DIR / "results" / "cluster_only_booking_curves_v1"
 
 PREDICTIONS_PATH = RESULT_DIR / "cluster_only_2025dec_100trial_cluster_lt_sarimax_predictions_v1.csv"
-SOURCE_PATH = BASE_DIR / "展開データ_ほぼ処理完了_lt_expanded_v2_with_events_jp_clean_with_cluster.csv"
+SOURCE_PATH = BASE_DIR / "input_booking_data.csv"
 
 LONG_OUTPUT = OUTPUT_DIR / "cluster_only_booking_curves_long_v1.csv"
 DATE_METRICS_OUTPUT = OUTPUT_DIR / "cluster_only_booking_curve_metrics_by_date_v1.csv"
